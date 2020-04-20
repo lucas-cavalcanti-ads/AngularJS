@@ -1,0 +1,127 @@
+.imagem-carrousel{
+    object-fit: cover;
+    height: 500px;
+}
+
+.font-carrousel{
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 32px;
+}
+
+.font-titulo-carrousel{
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-size: 46px;
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+    color: red;
+    
+}
+
+.texto{
+    font-family: 'Lobster Two', cursive;
+    font-size: 24px;
+}
+
+.texto-icon{
+    color: red;
+    text-decoration: none;
+}
+
+.texto-titulo-destaque{
+    text-shadow: 2px 2px 3px black;
+}
+
+.texto-corpo-destaque{
+    text-shadow: 1px 1px 2px red;
+}
+
+.texto-cards{
+    font-family: 'Lobster Two', cursive;
+    font-size: 18px;
+    height: 90px;
+}
+
+.botao-cor-especial{
+    background-color: red;
+    font-family: 'Lobster Two', cursive;
+    border-color: grey;
+}
+
+.botao-fechar{
+    font-family: 'Lobster Two', cursive;
+    border-color: grey; 
+}
+
+.fundo-card{
+    background-color: black;
+    height: 270px;
+}
+
+.card-img-top{
+    object-fit: cover;
+}
+
+.tamanho-card{
+    max-width: 18rem;
+}
+
+.texto-titulo{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer#rodape{
+    clear: both;/*LIMPA A CONFIGURAÇÃO DOS DOIS LADOS*/
+    border-top: 1px solid rgb(209, 208, 208);  
+}
+
+footer#rodape p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-modal{
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 26px;
+    
+}
+
+.texto-modal{
+    font-family: 'Lobster Two', cursive;
+    font-size: 18px;
+}
+
+.efeito-card:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 1px solid red;
+}
+
+.painel-animado.ng-leave-active{
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+}
+
+.painel-animado{
+    -moz-transition:transform 0.8s;
+    -webkit-transition:transform 0.8s;
+    -ms-transition:transform 0.8s;
+    -o-transition:transform 0.8s;
+    transition:transform 0.8s;
+}
